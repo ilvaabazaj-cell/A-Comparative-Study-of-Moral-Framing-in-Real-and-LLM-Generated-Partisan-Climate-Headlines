@@ -1,0 +1,27 @@
+Synthetic corpus generation
+============================
+
+Model:  Claude Sonnet 4.6 (Anthropic)
+Date:   April 2025 (hackathon)
+Method: one call per party. The prompt below was used verbatim for the Democrat
+        corpus; for the Republican corpus the single word "democrat" was replaced
+        by "republican". Nothing else was changed.
+
+Output files:
+  dem_titles_final.json   (Democrat-aligned: 178 titles for 2016, 185 for 2017)
+  rep_titles_final.json   (Republican-aligned: 53 titles for 2016, 60 for 2017)
+
+
+PROMPT (Democrat variant)
+-------------------------
+Generate a JSON file containing 178 different news titles of articles published on the
+22nd of April 2016 in the US and 185 different news titles of articles published on the
+22nd of April 2017 in the US. The titles must be of articles that would contain at least
+one among [climate change, climate crisis, climate action, climate emergency, global
+warming] at any point in the title or body text. The articles must be aligned to what
+mostly democrat voters would have retweeted. Invent, and not search the internet.
+
+
+PROMPT (Republican variant)
+---------------------------
+Identical to the prompt above, with "democrat" replaced by "republican".
