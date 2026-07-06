@@ -19,7 +19,6 @@ was asked to imitate.
 ├── requirements.txt
 ├── analysis.py                 # all statistics and tables
 ├── figures.py                  # Figure 1 and Figure 2
-├── main.tex                    # paper source (LaTeX)
 ├── main.pdf                    # compiled paper
 ├── prompts/
 │   └── generation_prompt.txt   # the exact prompt used to generate the synthetic titles
